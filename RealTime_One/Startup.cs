@@ -8,6 +8,7 @@ namespace RealTime_One
     {
         public void Configuration(IAppBuilder app)
         {
+            app.MapSignalR();
             ConfigureAuth(app);
         }
     }
